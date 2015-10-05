@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="Stylesheet" type="text/css" href="__PUBLIC__/Common/jquery-easyui-1.4.2/themes/default/easyui.css" />
+    <link rel="Stylesheet" type="text/css" href="__PUBLIC__/Common/jquery-easyui-1.4.2/themes/icon.css" />
+    <script type="text/javascript" src="__PUBLIC__/Common/jquery-easyui-1.4.2/jquery.min.js"></script>
+
+    <script type="text/javascript" src="__PUBLIC__/Common/jquery-easyui-1.4.2/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Common/bootstrap-paginator/src/bootstrap-paginator.js"></script>
+
+    <link rel="Stylesheet" type="text/css" href="__PUBLIC__/Common/pagination.css" />
+</head>
+<body style="margin-left: 50px">
+<h2>>>教师管理</h2>
+<div style="margin:20px 0;"></div>
+<table id="xxgl" class="easyui-datagrid" title="教师管理" style="width:1000px;height:700px"
+       data-options="rownumbers:true,singleSelect:true,url:'/wx_shool/admin.php/home/teacher/getTeacherList',method:'get',toolbar:toolbar">
+    <thead>
+    <tr>
+        <th data-options="field:'teacherid',width:60,align:'center'">ID</th>
+        <th data-options="field:'useracount',width:60,align:'center'">用户名</th>
+        <th data-options="field:'userpassword',width:80,align:'center'">密码（加密）</th>
+        <th data-options="field:'nickname',width:100,align:'center'">昵称</th>
+        <th data-options="field:'city',width:60,align:'center'">城市</th>
+        <th data-options="field:'phone',width:100,align:'center'">电话</th>
+        <th data-options="field:'booladmin',width:70,align:'center',formatter:formatter2,">管理员权限</th>
+        <th data-options="field:'boolpass',width:70,align:'center',formatter:formatter1,">教师权限</th>
+        <th data-options="field:'openid',width:80,align:'center'">openid</th>
+        <th data-options="field:'jingdu',width:80,align:'center'">最后登陆经度</th>
+        <th data-options="field:'weidu',width:80,align:'center'">最后登陆纬度</th>
+        <th data-options="field:'11',width:60,align:'center',formatter:formatter,">头像</th>
+
+
+
+
+
+
+
+
+    </tr>
+    </thead>
+</table>
+<div  id="paginator"></div>
+
+</body>
+</html>
+<script type="text/javascript">
+    $(function(){
+        $('#paginator').bootstrapPaginator(options);//加载分页配置
+
+    });
+
+
+    var options = {
+        currentPage: 1,
+        //numberOfPages: 5,
+        // size: "large",
+        totalPages: {$totalPage},
+        itemTexts: function (type, page, current) {
+            switch (type) {
+                case "first":
+                    return "第一页";
+                case "prev":
+                    return "上一页";
+                case "next":
+                    return "下一页";
+                case "last":
+                    return "最后一页";
+                case "page":
+                    return "" + page;
+            }
+            return null;
+        },
+        onPageClicked: function (event, originalEvent, type, page) {
+
+
+            $.ajax({
+                url: "/wx_shool/admin.php/home/teacher/getTeacherList",
+                type: 'get',
+                data:{page:page},
+                success: function (data) {
+                    if (data.length != 0) {
+                        data = JSON.parse(data);//转换成json对象，必须的！！！不然有异常！！！
+                        $('#xxgl').datagrid("loadData",data);
+                    }
+
+                }
+            });
+
+
+        }
+    };
+
+
+    function formatter(value,rowData,rowIndex){
+        // var str=
+        return '<img src="__PUBLIC__/'+rowData.image+'" width="40px" height="40px" alt="logo+"/>';
+
+    }
+    function formatter1(value,rowData,rowIndex){
+        // var str=
+
+        if(rowData.boolpass=="1"){
+            return '<span>是</span>';
+        }
+        else{
+            return '<span>否</span>';
+        }
+        // return '<img src="__PUBLIC__/'+rowData.image+'" width="40px" height="40px" alt="logo+"/>';
+
+    }
+    function formatter2(value,rowData,rowIndex){
+        // var str=
+
+        if(rowData.booladmin=="1"){
+            return '<span>是</span>';
+        }
+        else{
+            return '<span>否</span>';
+        }
+        // return '<img src="__PUBLIC__/'+rowData.image+'" width="40px" height="40px" alt="logo+"/>';
+
+    }
+    var toolbar = [{
+        text:'审核',
+        iconCls:'icon-add',
+        handler:function(){
+           // $('#add').window('open');
+            if($("#xxgl").datagrid("getSelected")==null){
+                alert("请选择要修改的行");
+                return false;
+            }
+           if($("#xxgl").datagrid("getSelected").boolpass=="1"){
+               alert("该教师已通过审核");
+               return false;
+            }
+            if(confirm("是否审核")){
+
+                $.ajax({
+                    url: "/wx_shool/admin.php/home/teacher/pass",
+                    type: 'post',
+                    data:{teacherid:$("#xxgl").datagrid("getSelected").teacherid},
+                    success: function (data) {
+                        console.log(data);
+                        if(data=="OK"){
+                            alert("通过审核")
+                        }else{
+                            alert("审核失败，请重新审核")
+                        }
+                        location.reload();
+                    },
+                    error:function(){
+                        alert("请求错误");
+                    }
+                });
+            }
+        }
+    },{
+        text:'设为管理员',
+        iconCls:'icon-add',
+        handler:function(){
+
+            if($("#xxgl").datagrid("getSelected")==null){
+                alert("请选择要修改的行");
+                return false;
+            }
+           // alert($("#xxgl").datagrid("getSelected").booladmin);
+            if($("#xxgl").datagrid("getSelected").booladmin=="1"){
+                alert("该教师已是管理员");
+                return false;
+            }
+            if(confirm("是否设为管理员")){
+
+                $.ajax({
+                    url: "/wx_shool/admin.php/home/teacher/setadmin",
+                    type: 'post',
+                    data:{teacherid:$("#xxgl").datagrid("getSelected").teacherid},
+                    success: function (data) {
+                        console.log(data);
+                        if(data=="OK"){
+                            alert("设置成功")
+                        }else{
+                            alert("设置失败，请重新设置")
+                        }
+                        location.reload();
+                    },
+                    error:function(){
+                        alert("请求错误");
+                    }
+                });
+            }
+
+
+
+        }
+    }];
+</script>

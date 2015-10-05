@@ -1,0 +1,318 @@
+[ 2015-06-06T12:10:09+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/index/checklogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select *  from wx_teacher where  booladmin=1 and userAcount='admin' and userPassword='21232f297a57a5a743894a0e4a801fc3' [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-06T12:10:14+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-06T12:10:14+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:10:14+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getActivityList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT wx_shoolactivity.id,wx_shoolactivity.activityId,wx_shoolactivity.shoolId,wx_school.shoolName,wx_activity.activityTitle,wx_activity.activityCagetory,wx_activity.activitySubTitle,wx_activity.activityImage,wx_activity.activityTime,wx_activity.activityAdd,wx_activity.activitySponsor FROM (wx_activity ,wx_school) INNER JOIN wx_shoolactivity ON wx_school.shoolId = wx_shoolactivity.shoolId AND wx_activity.activityId = wx_shoolactivity.activityId WHERE wx_shoolactivity.boolDel=0 ORDER BY wx_activity.activityAdd DESC LIMIT 0,20 [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2015-06-06T12:10:18+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:10:18+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/modifyBing/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT wx_shoolactivity.id,wx_shoolactivity.activityId,wx_shoolactivity.shoolId,wx_school.shoolName,wx_activity.activityTitle,wx_activity.activityCagetory,wx_activity.activitySubTitle,wx_activity.activityImage,wx_activity.activityTime,wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed FROM (wx_activity ,wx_school) INNER JOIN wx_shoolactivity ON wx_school.shoolId = wx_shoolactivity.shoolId AND wx_activity.activityId = wx_shoolactivity.activityId WHERE wx_shoolactivity.boolDel=0 and  wx_shoolactivity.id=23 [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:10:27+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/confirmModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `wx_activity` [ RunTime:0.0150s ]
+SQL: UPDATE `wx_activity` SET `activityTitle`='古典之典',`activityTime`='2015-06-20 19:30:56',`activitySubTitle`='莫扎特、贝多芬钢琴作品音乐会',`activityAdd`='深圳艺校音乐厅',`activitySponsor`='深圳艺术学校钢琴系',`activityCagetory`='钢琴',`activityImage`='piano.jpg',`activityTetailed`='<p>Sonata No. 8 in D major K. 311 (284c)</p><p><br/>I. Allegro con spirito</p><p><br/>II. Andante con espressione</p><p><br/>III. Rondeau. Allegro</p><p><br/>Sonata No. 5 in G major K. 283 (189h)</p><p><br/>I. Allegro</p><p><br/></p><p>II. Andante</p><p><br/></p><p>1122</p><p>111</p><p>&lt;</p>',`attentNum`='0' WHERE ( activityId=23 ) [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `wx_shoolactivity` [ RunTime:0.0150s ]
+SQL: UPDATE `wx_shoolactivity` SET `shoolId`='13' WHERE ( id=23 ) [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-06T12:10:29+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:10:29+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/modifyBing/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_shoolactivity.id,wx_shoolactivity.activityId,wx_shoolactivity.shoolId,wx_school.shoolName,wx_activity.activityTitle,wx_activity.activityCagetory,wx_activity.activitySubTitle,wx_activity.activityImage,wx_activity.activityTime,wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed FROM (wx_activity ,wx_school) INNER JOIN wx_shoolactivity ON wx_school.shoolId = wx_shoolactivity.shoolId AND wx_activity.activityId = wx_shoolactivity.activityId WHERE wx_shoolactivity.boolDel=0 and  wx_shoolactivity.id=23 [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:10:42+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/confirmModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wx_activity` [ RunTime:0.0150s ]
+SQL: UPDATE `wx_activity` SET `activityTitle`='古典之典',`activityTime`='2015-06-20 19:30:56',`activitySubTitle`='莫扎特、贝多芬钢琴作品音乐会',`activityAdd`='深圳艺校音乐厅',`activitySponsor`='深圳艺术学校钢琴系',`activityCagetory`='钢琴',`activityImage`='piano.jpg',`activityTetailed`='<p>Sonata No. 8 in D major K. 311 (284c)</p><p><br/>I. Allegro con spirito</p><p><br/>II. Andante con espressione</p><p><br/>III. Rondeau. Allegro</p><p><br/>Sonata No. 5 in G major K. 283 (189h)</p><p><br/>I. Allegro</p><p><br/></p><p>II. Andante</p><p><br/></p><p>111</p><p>222</p><p><br/></p>',`attentNum`='0' WHERE ( activityId=23 ) [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `wx_shoolactivity` [ RunTime:0.0140s ]
+SQL: UPDATE `wx_shoolactivity` SET `shoolId`='13' WHERE ( id=23 ) [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-06T12:10:44+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:10:44+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/modifyBing/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_shoolactivity.id,wx_shoolactivity.activityId,wx_shoolactivity.shoolId,wx_school.shoolName,wx_activity.activityTitle,wx_activity.activityCagetory,wx_activity.activitySubTitle,wx_activity.activityImage,wx_activity.activityTime,wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed FROM (wx_activity ,wx_school) INNER JOIN wx_shoolactivity ON wx_school.shoolId = wx_shoolactivity.shoolId AND wx_activity.activityId = wx_shoolactivity.activityId WHERE wx_shoolactivity.boolDel=0 and  wx_shoolactivity.id=23 [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:12:11+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:12:11+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/modifyBing/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_shoolactivity.id,wx_shoolactivity.activityId,wx_shoolactivity.shoolId,wx_school.shoolName,wx_activity.activityTitle,wx_activity.activityCagetory,wx_activity.activitySubTitle,wx_activity.activityImage,wx_activity.activityTime,wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed FROM (wx_activity ,wx_school) INNER JOIN wx_shoolactivity ON wx_school.shoolId = wx_shoolactivity.shoolId AND wx_activity.activityId = wx_shoolactivity.activityId WHERE wx_shoolactivity.boolDel=0 and  wx_shoolactivity.id=23 [ RunTime:0.0290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:12:18+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/confirmModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wx_activity` [ RunTime:0.0160s ]
+SQL: UPDATE `wx_activity` SET `activityTitle`='古典之典',`activityTime`='2015-06-20 19:30:56',`activitySubTitle`='莫扎特、贝多芬钢琴作品音乐会',`activityAdd`='深圳艺校音乐厅',`activitySponsor`='深圳艺术学校钢琴系',`activityCagetory`='钢琴',`activityImage`='piano.jpg',`activityTetailed`='<p>Sonata No. 8 in D major K. 311 (284c)</p><p><br/>I. Allegro con spirito</p><p><br/>II. Andante con espressione</p><p><br/>III. Rondeau. Allegro</p><p><br/>Sonata No. 5 in G major K. 283 (189h)</p><p><br/>I. Allegro</p><p><br/></p><p>II. Andante</p><p>&lt;111</p><p>333</p><p>5555</p>',`attentNum`='0' WHERE ( activityId=23 ) [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `wx_shoolactivity` [ RunTime:0.0130s ]
+SQL: UPDATE `wx_shoolactivity` SET `shoolId`='13' WHERE ( id=23 ) [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-06T12:12:20+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-06T12:12:20+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/modifyBing/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_shoolactivity.id,wx_shoolactivity.activityId,wx_shoolactivity.shoolId,wx_school.shoolName,wx_activity.activityTitle,wx_activity.activityCagetory,wx_activity.activitySubTitle,wx_activity.activityImage,wx_activity.activityTime,wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed FROM (wx_activity ,wx_school) INNER JOIN wx_shoolactivity ON wx_school.shoolId = wx_shoolactivity.shoolId AND wx_activity.activityId = wx_shoolactivity.activityId WHERE wx_shoolactivity.boolDel=0 and  wx_shoolactivity.id=23 [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:12:32+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/confirmModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wx_activity` [ RunTime:0.0140s ]
+SQL: UPDATE `wx_activity` SET `activityTitle`='古典之典',`activityTime`='2015-06-20 19:30:56',`activitySubTitle`='莫扎特、贝多芬钢琴作品音乐会',`activityAdd`='深圳艺校音乐厅',`activitySponsor`='深圳艺术学校钢琴系',`activityCagetory`='钢琴',`activityImage`='piano.jpg',`activityTetailed`='<p>Sonata No. 8 in D major K. 311 (284c)</p><p><br/>I. Allegro con spirito</p><p><br/>II. Andante con espressione</p><p><br/>III. Rondeau. Allegro</p><p><br/>Sonata No. 5 in G major K. 283 (189h)</p><p><br/>I. Allegro</p><p><br/></p><p>II. Andante</p><p>555</p><p>333</p><p>555</p><p>666</p><p><br/></p><p>666</p><p><br/></p>',`attentNum`='0' WHERE ( activityId=23 ) [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `wx_shoolactivity` [ RunTime:0.0160s ]
+SQL: UPDATE `wx_shoolactivity` SET `shoolId`='13' WHERE ( id=23 ) [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-06-06T12:12:33+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:12:33+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/modifyBing/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT wx_shoolactivity.id,wx_shoolactivity.activityId,wx_shoolactivity.shoolId,wx_school.shoolName,wx_activity.activityTitle,wx_activity.activityCagetory,wx_activity.activitySubTitle,wx_activity.activityImage,wx_activity.activityTime,wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed FROM (wx_activity ,wx_school) INNER JOIN wx_shoolactivity ON wx_school.shoolId = wx_shoolactivity.shoolId AND wx_activity.activityId = wx_shoolactivity.activityId WHERE wx_shoolactivity.boolDel=0 and  wx_shoolactivity.id=23 [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:12:59+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:12:59+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/modifyBing/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_shoolactivity.id,wx_shoolactivity.activityId,wx_shoolactivity.shoolId,wx_school.shoolName,wx_activity.activityTitle,wx_activity.activityCagetory,wx_activity.activitySubTitle,wx_activity.activityImage,wx_activity.activityTime,wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed FROM (wx_activity ,wx_school) INNER JOIN wx_shoolactivity ON wx_school.shoolId = wx_shoolactivity.shoolId AND wx_activity.activityId = wx_shoolactivity.activityId WHERE wx_shoolactivity.boolDel=0 and  wx_shoolactivity.id=23 [ RunTime:0.0210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:13:06+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/confirmModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `wx_activity` [ RunTime:0.0140s ]
+SQL: UPDATE `wx_activity` SET `activityTitle`='古典之典',`activityTime`='2015-06-20 19:30:56',`activitySubTitle`='莫扎特、贝多芬钢琴作品音乐会',`activityAdd`='深圳艺校音乐厅',`activitySponsor`='深圳艺术学校钢琴系',`activityCagetory`='钢琴',`activityImage`='piano.jpg',`activityTetailed`='<p>Sonata No. 8 in D major K. 311 (284c)</p><p><br/>I. Allegro con spirito</p><p><br/>II. Andante con espressione</p><p><br/>III. Rondeau. Allegro</p><p><br/>Sonata No. 5 in G major K. 283 (189h)</p><p><br/>I. Allegro</p><p><br/></p><p>II. Andante</p><p>555555</p><p>444</p>',`attentNum`='0' WHERE ( activityId=23 ) [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `wx_shoolactivity` [ RunTime:0.0130s ]
+SQL: UPDATE `wx_shoolactivity` SET `shoolId`='13' WHERE ( id=23 ) [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:13:08+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:13:08+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/modifyBing/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_shoolactivity.id,wx_shoolactivity.activityId,wx_shoolactivity.shoolId,wx_school.shoolName,wx_activity.activityTitle,wx_activity.activityCagetory,wx_activity.activitySubTitle,wx_activity.activityImage,wx_activity.activityTime,wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed FROM (wx_activity ,wx_school) INNER JOIN wx_shoolactivity ON wx_school.shoolId = wx_shoolactivity.shoolId AND wx_activity.activityId = wx_shoolactivity.activityId WHERE wx_shoolactivity.boolDel=0 and  wx_shoolactivity.id=23 [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:16:22+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/confirmModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wx_activity` [ RunTime:0.0160s ]
+SQL: UPDATE `wx_activity` SET `activityTitle`='古典之典',`activityTime`='2015-06-20 19:30:56',`activitySubTitle`='莫扎特、贝多芬钢琴作品音乐会',`activityAdd`='深圳艺校音乐厅',`activitySponsor`='深圳艺术学校钢琴系',`activityCagetory`='钢琴',`activityImage`='piano.jpg',`activityTetailed`='<p>Sonata No. 8 in D major K. 311 (284c)</p><p><br/>I. Allegro con spirito</p><p><br/>II. Andante con espressione</p><p><br/>III. Rondeau. Allegro</p><p><br/>Sonata No. 5 in G major K. 283 (189h)</p><p><br/>I. Allegro</p><p><br/></p><p>II. Andante</p><p><br/></p><p>9</p><p>9</p><p>9</p><p>9</p><p>9</p><p>9</p><p>9</p><p>9</p><p><br/></p><p>9</p><p>6</p><p>6</p><p><br/></p><p>6</p><p>8</p>',`attentNum`='0' WHERE ( activityId=23 ) [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `wx_shoolactivity` [ RunTime:0.0140s ]
+SQL: UPDATE `wx_shoolactivity` SET `shoolId`='13' WHERE ( id=23 ) [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:16:24+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-06T12:16:24+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/modifyBing/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT wx_shoolactivity.id,wx_shoolactivity.activityId,wx_shoolactivity.shoolId,wx_school.shoolName,wx_activity.activityTitle,wx_activity.activityCagetory,wx_activity.activitySubTitle,wx_activity.activityImage,wx_activity.activityTime,wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed FROM (wx_activity ,wx_school) INNER JOIN wx_shoolactivity ON wx_school.shoolId = wx_shoolactivity.shoolId AND wx_activity.activityId = wx_shoolactivity.activityId WHERE wx_shoolactivity.boolDel=0 and  wx_shoolactivity.id=23 [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:17:47+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/confirmModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wx_activity` [ RunTime:0.0130s ]
+SQL: UPDATE `wx_activity` SET `activityTitle`='古典之典',`activityTime`='2015-06-20 19:30:56',`activitySubTitle`='莫扎特、贝多芬钢琴作品音乐会',`activityAdd`='深圳艺校音乐厅',`activitySponsor`='深圳艺术学校钢琴系',`activityCagetory`='钢琴',`activityImage`='piano.jpg',`activityTetailed`='<p>Sonata No. 8 in D major K. 311 (284c)</p><p><br/>I. Allegro con spirito</p><p><br/>II. Andante con espressione</p><p><br/>III. Rondeau. Allegro</p><p><br/>Sonata No. 5 in G major K. 283 (189h)</p><p><br/>I. Allegro</p><p><br/></p><p>II. Andante11</p><p>555</p><p>5</p><p>55</p><p>5</p><p>&lt;</p>',`attentNum`='0' WHERE ( activityId=23 ) [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `wx_shoolactivity` [ RunTime:0.0140s ]
+SQL: UPDATE `wx_shoolactivity` SET `shoolId`='13' WHERE ( id=23 ) [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:17:49+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:17:49+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/modifyBing/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT wx_shoolactivity.id,wx_shoolactivity.activityId,wx_shoolactivity.shoolId,wx_school.shoolName,wx_activity.activityTitle,wx_activity.activityCagetory,wx_activity.activitySubTitle,wx_activity.activityImage,wx_activity.activityTime,wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed FROM (wx_activity ,wx_school) INNER JOIN wx_shoolactivity ON wx_school.shoolId = wx_shoolactivity.shoolId AND wx_activity.activityId = wx_shoolactivity.activityId WHERE wx_shoolactivity.boolDel=0 and  wx_shoolactivity.id=23 [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:24:35+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-06T12:24:35+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/modifyBing/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_shoolactivity.id,wx_shoolactivity.activityId,wx_shoolactivity.shoolId,wx_school.shoolName,wx_activity.activityTitle,wx_activity.activityCagetory,wx_activity.activitySubTitle,wx_activity.activityImage,wx_activity.activityTime,wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed FROM (wx_activity ,wx_school) INNER JOIN wx_shoolactivity ON wx_school.shoolId = wx_shoolactivity.shoolId AND wx_activity.activityId = wx_shoolactivity.activityId WHERE wx_shoolactivity.boolDel=0 and  wx_shoolactivity.id=23 [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

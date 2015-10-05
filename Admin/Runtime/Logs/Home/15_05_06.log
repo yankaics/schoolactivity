@@ -1,0 +1,8 @@
+[ 2015-05-06T16:51:00+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/index
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2015-05-06T16:51:11+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/index/openid/1
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+

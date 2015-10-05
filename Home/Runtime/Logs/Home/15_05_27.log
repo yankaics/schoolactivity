@@ -1,0 +1,53 @@
+[ 2015-05-27T13:47:50+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/index/openid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT DISTINCT wx_school.shoolName,wx_shoolactivity.shoolId,wx_school.schoolIcon,str_to_date(wx_activity.activityTime,'%Y%m%d') as activityTime FROM wx_school INNER JOIN wx_shoolactivity ON wx_shoolactivity.shoolId = wx_school.shoolId INNER JOIN wx_activity ON wx_activity.activityId = wx_shoolactivity.activityId where activityTime >NOW() and wx_shoolactivity.boolDel=0 [ RunTime:0.0140s ]
+SQL: SELECT wx_shoolactivity.activityId,wx_activity.activitySubTitle, wx_activity.activityTitle,wx_activity.activityTime,wx_activity.attentNum,wx_activity.activityCagetory,wx_shoolactivity.shoolId,str_to_date(wx_activity.activityTime,'%Y%m%d') as activityTime,wx_activity.activityTime
+FROM wx_shoolactivity INNER JOIN wx_activity ON wx_activity.activityId = wx_shoolactivity.activityId
+where wx_shoolactivity.boolDel=0 AND activityTime >NOW() [ RunTime:0.0210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.024058s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.024058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-27T13:48:00+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/index/openid/0119e4ef7d6054d54e19b1235dc86fed
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user F:\WorkSpace\PhpWork\wx_shool\Home\Home\Controller\SchoolController.class.php 第 15 行.
+
+[ 2015-05-27T13:48:00+08:00 ] 127.0.0.1 /wx_shool/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

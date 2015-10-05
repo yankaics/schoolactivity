@@ -1,0 +1,888 @@
+[ 2015-05-16T21:42:07+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/teacherSelect/shoolId/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT DISTINCT  wx_school.shoolName, wx_shoolactivity.shoolId FROM wx_school INNER JOIN wx_shoolactivity ON wx_shoolactivity.shoolId = wx_school.shoolId where wx_shoolactivity.boolDel=0 and wx_school.shoolId=12 [ RunTime:0.0210s ]
+SQL: SELECT wx_shoolactivity.activityId,wx_activity.activitysubtitle, wx_activity.activityTitle,wx_activity.activityTime,wx_activity.attentNum,wx_activity.activityCagetory,wx_shoolactivity.shoolId,str_to_date(wx_activity.activityTime,'%Y%m%d') as activityTime,wx_activity.activityTime FROM wx_shoolactivity INNER JOIN wx_activity ON wx_activity.activityId = wx_shoolactivity.activityId where wx_shoolactivity.boolDel=0 AND activityTime >NOW() and  wx_shoolactivity.shoolId=12 [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: openid F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\2e23659c00b0a41e9403b13dc758a157.php 第 152 行.
+NOTIC: [8] Undefined variable: openid F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\2e23659c00b0a41e9403b13dc758a157.php 第 153 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\2e23659c00b0a41e9403b13dc758a157.php 第 178 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\2e23659c00b0a41e9403b13dc758a157.php 第 178 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\2e23659c00b0a41e9403b13dc758a157.php 第 178 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\2e23659c00b0a41e9403b13dc758a157.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-16T22:16:43+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/teacherModify/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:44+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT  wx_activity.activityTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=9 [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-16T22:16:44+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/teacherModify/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:44+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT  wx_activity.activityTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=9 [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:44+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/teacherModify/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:44+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT  wx_activity.activityTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=9 [ RunTime:0.0290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:44+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/teacherModify/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:44+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT  wx_activity.activityTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=9 [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:44+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/teacherModify/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:45+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT  wx_activity.activityTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=9 [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:45+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/teacherModify/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-16T22:16:45+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT  wx_activity.activityTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=9 [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:45+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/teacherModify/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:45+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT  wx_activity.activityTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=9 [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:45+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/teacherModify/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:45+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT  wx_activity.activityTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=9 [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-16T22:16:45+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/teacherModify/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:45+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT  wx_activity.activityTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=9 [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-16T22:16:45+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/teacherModify/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:45+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT  wx_activity.activityTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=9 [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-16T22:16:48+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/noPermission/teacherId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:16:48+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/noPermission/teacherId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-16T22:16:48+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/noPermission/teacherId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-16T22:17:04+08:00 ] 127.0.0.1 /wx_shool/index.php/home/School/index/openid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-16T22:17:04+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/bingGuanZhu?openid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_guanzhu.shoolId,wx_guanzhu.guanZhuiID FROM wx_guanzhu where  weixin='1' [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:23:34+08:00 ] 127.0.0.1 /wx_shool/index.php/home/School/index/openid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-16T22:23:34+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/getAllSchollList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName,wx_school.schoolIcon from wx_school where boolDel=0 ORDER BY shoolId desc  [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:23:34+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/bingGuanZhu?openid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_guanzhu.shoolId,wx_guanzhu.guanZhuiID FROM wx_guanzhu where  weixin='1' [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:25:10+08:00 ] 127.0.0.1 /wx_shool/index.php/home/School/index/openid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:25:10+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/getAllSchollList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName,wx_school.schoolIcon from wx_school where boolDel=0 ORDER BY shoolId desc  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:25:10+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/bingGuanZhu?openid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_guanzhu.shoolId,wx_guanzhu.guanZhuiID FROM wx_guanzhu where  weixin='1' [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-16T22:25:53+08:00 ] 127.0.0.1 /wx_shool/index.php/home/School/index/openid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:25:53+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/getAllSchollList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName,wx_school.schoolIcon from wx_school where boolDel=0 ORDER BY shoolId desc  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-16T22:25:53+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/bingGuanZhu?openid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_guanzhu.shoolId,wx_guanzhu.guanZhuiID FROM wx_guanzhu where  weixin='1' [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:29:25+08:00 ] 127.0.0.1 /wx_shool/index.php/home/School/index/openid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:29:26+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/getAllSchollList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName,wx_school.schoolIcon from wx_school where boolDel=0 ORDER BY shoolId desc  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:29:26+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/bingGuanZhu?openid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_guanzhu.shoolId,wx_guanzhu.guanZhuiID FROM wx_guanzhu where  weixin='1' [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:31:18+08:00 ] 127.0.0.1 /wx_shool/index.php/home/School/index/openid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:31:18+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/getAllSchollList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName,wx_school.schoolIcon from wx_school where boolDel=0 ORDER BY shoolId desc  [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-16T22:31:18+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/bingGuanZhu?openid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_guanzhu.shoolId,wx_guanzhu.guanZhuiID FROM wx_guanzhu where  weixin='1' [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:31:29+08:00 ] 127.0.0.1 /wx_shool/index.php/home/School/index/openid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:31:30+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/getAllSchollList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName,wx_school.schoolIcon from wx_school where boolDel=0 ORDER BY shoolId desc  [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:31:30+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/bingGuanZhu?openid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT wx_guanzhu.shoolId,wx_guanzhu.guanZhuiID FROM wx_guanzhu where  weixin='1' [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:34:28+08:00 ] 127.0.0.1 /wx_shool/index.php/home/School/index/openid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:34:28+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/getAllSchollList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName,wx_school.schoolIcon from wx_school where boolDel=0 ORDER BY shoolId desc  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:34:28+08:00 ] 127.0.0.1 /wx_shool/index.php/home/school/bingGuanZhu?openid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT wx_guanzhu.shoolId,wx_guanzhu.guanZhuiID FROM wx_guanzhu where  weixin='1' [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:34:33+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/index/openid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT DISTINCT wx_school.shoolName,wx_shoolactivity.shoolId,wx_school.schoolIcon,str_to_date(wx_activity.activityTime,'%Y%m%d') as activityTime FROM wx_school INNER JOIN wx_shoolactivity ON wx_shoolactivity.shoolId = wx_school.shoolId INNER JOIN wx_activity ON wx_activity.activityId = wx_shoolactivity.activityId where activityTime >NOW() and wx_shoolactivity.boolDel=0 [ RunTime:0.0170s ]
+SQL: SELECT wx_shoolactivity.activityId,wx_activity.activitySubTitle, wx_activity.activityTitle,wx_activity.activityTime,wx_activity.attentNum,wx_activity.activityCagetory,wx_shoolactivity.shoolId,str_to_date(wx_activity.activityTime,'%Y%m%d') as activityTime,wx_activity.activityTime
+FROM wx_shoolactivity INNER JOIN wx_activity ON wx_activity.activityId = wx_shoolactivity.activityId
+where wx_shoolactivity.boolDel=0 AND activityTime >NOW() [ RunTime:0.0210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Home\Runtime\Cache\Home\7e9db2e7aebe5220012ef9025cb1b24d.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-16T22:34:35+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/attent/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_attention.attentionId FROM wx_attention where weixin='1' and activityId=1 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:34:36+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/activitydetail/activityId/1/openid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:34:36+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT  wx_activity.activityTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=1 [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

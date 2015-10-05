@@ -1,0 +1,193 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>登录</title>
+    <link rel="stylesheet" href="/wx_shool/Public/Common/Jingle/demo/css/Jingle.css">
+    <link rel="stylesheet" href="/wx_shool/Public/Common/Jingle/demo/css/app.css">
+    <script type="text/javascript" src="/wx_shool/Public/Common/weixin.js"></script>
+    <script type="text/javascript" src="/wx_shool/Public/Common/Jingle/demo/js/lib/zepto.js"></script>
+</head>
+<style type="text/css">
+    *{font-family: "Helvetica Neue";color: #404040}
+</style>
+<body>
+<div style="padding:10px 20px;margin-top: 30px">
+    <div style="text-align:center;font-size:20px;color:#3498DB;font-weight:600;margin:5px 0;"></div>
+    <input type="text" id="userAcount" placeholder="用户名">
+    <input type="password" id="userPassword" placeholder="密码">
+    <button class="block" data-icon="checkmark" data-target="closePopup" onclick="login()">登录</button>
+    <div style="width: 100%;height: auto">
+        <a href="/wx_shool/index.php/home/index/register/openid/<?php echo ($openid); ?>" style="text-align:center;font-size:16px;color:#3498DB;cursor: pointer;display: block;margin-top: 25px;letter-spacing: 4px" >注册新账号</a>
+    </div>
+
+    <input id="openid" hidden="hidden" type="text" value="<?php echo ($openid); ?>"/>
+</div>
+<script type="text/javascript">
+    Zepto(function($){
+        //alert('Ready to Zepto!')
+    });
+    //登录
+    function login(){
+     //   location.href="/wx_shool/index.php/home/index/teacherSelect";
+       if($("#userAcount").val()==""||$("#userPassword").val()==""){
+           // J.alert("提示","用户名或密码不能为空");
+            J.popup({
+                html: '用户名或密码不能为空',
+                pos : 'center',
+                showCloseBtn : true
+            });
+            return false;
+        }
+
+        $.ajax({
+            url:"/wx_shool/index.php/home/index/checklogin1/",
+            type:'post',
+            data:{userAcount:$("#userAcount").val(),userPassword:$("#userPassword").val(),openid:$("#openid").val()},
+            success:function(result){
+               // console.log(result);
+                if(result=="FALSE"){
+                    J.popup({
+                        html: '登录失败，用户名或密码错误，请重新登录',
+                        pos : 'center',
+                        showCloseBtn : false
+                    });
+                }
+                result=JSON.parse(result);
+              //  console.log(result[0]["teacherid"]);
+                console.log(result[0]["boolpass"]);
+                if(result[0]["boolpass"]=="1"){
+                   //有权限 跳转到主页面
+                    location.href="/wx_shool/index.php/home/index/teacherSelect/openid/"+$("#openid").val();
+                }
+                else{
+                   //没有权限 跳转到上传图片页面
+                    location.href="/wx_shool/index.php/home/index/noPermission/openid/"+$("#openid").val()+"/teacherId/"+result[0]["teacherid"];
+                }
+
+
+
+
+                //location.href="/wx_shool/index.php/home/index/teacherSelect";
+
+            }
+        })
+
+    }
+</script>
+<script>
+    /*
+     * 注意：
+     * 1. 所有的JS接口只能在公众号绑定的域名下调用，公众号开发者需要先登录微信公众平台进入“公众号设置”的“功能设置”里填写“JS接口安全域名”。
+     * 2. 如果发现在 Android 不能分享自定义内容，请到官网下载最新的包覆盖安装，Android 自定义分享接口需升级至 6.0.2.58 版本及以上。
+     * 3. 常见问题及完整 JS-SDK 文档地址：http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html
+     *
+     * 开发中遇到问题详见文档“附录5-常见错误及解决办法”解决，如仍未能解决可通过以下渠道反馈：
+     * 邮箱地址：weixin-open@qq.com
+     * 邮件主题：【微信JS-SDK反馈】具体问题
+     * 邮件内容说明：用简明的语言描述问题所在，并交代清楚遇到该问题的场景，可附上截屏图片，微信团队会尽快处理你的反馈。
+     */
+    wx.config({
+        debug: false,
+        appId: '<?php echo ($appId); ?>',
+        timestamp: <?php echo ($timestamp); ?>,
+        nonceStr: '<?php echo ($nonceStr); ?>',
+        signature: '<?php echo ($signature); ?>',
+        jsApiList: [
+            'checkJsApi',
+            'openLocation',
+            'getLocation'
+
+
+        ]
+    });
+    wx.ready(function () {
+        // 1 判断当前版本是否支持指定 JS 接口，支持批量判断
+        /*  document.querySelector('#checkJsApi').onclick = function () {
+         wx.checkJsApi({
+         jsApiList: [
+         'getNetworkType',
+         'previewImage'
+         ],
+         success: function (res) {
+         alert(JSON.stringify(res));
+         }
+         });
+         };*/
+
+
+        wx.checkJsApi({
+            jsApiList: [
+                'getLocation'
+            ],
+            success: function (res) {
+                // alert(JSON.stringify(res));
+                // alert(JSON.stringify(res.checkResult.getLocation));
+                if (res.checkResult.getLocation == false) {
+                    alert('你的微信版本太低，请升级到最新的微信版本！');
+                    return;
+                }
+            }
+        });
+
+        wx.getLocation({
+            success: function (res) {
+                var latitude = res.latitude; // 纬度，浮点数，范围为90 ~ -90
+                var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+               // var speed = res.speed; // 速度，以米/每秒计
+              //  var accuracy = res.accuracy; // 位置精度
+
+
+                $.ajax({
+                     url:"/wx_shool/index.php/home/index/updateLocation/",
+                     type:'post',
+                    async:false,
+                     data:{jingdu:latitude,weidu:longitude,openid:$("#openid").val()},
+                     success:function(result){
+                        // alert(result);
+
+
+
+
+                         //location.href="/wx_shool/index.php/home/index/teacherSelect";
+
+                     }
+                 })
+
+
+
+            },
+            cancel: function (res) {
+                alert('用户拒绝授权获取地理位置');
+            }
+        });
+
+
+
+
+    });
+
+
+
+
+
+
+
+
+
+
+    wx.error(function(res){
+        //alert(res);
+
+        // config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名。
+
+    });
+</script>
+
+</body>
+
+<script type="text/javascript" src="/wx_shool/Public/Common/Jingle/demo/js/lib/Jingle.debug.js"></script>
+<script type="text/javascript" src="/wx_shool/Public/Common/Jingle/demo/js/lib/zepto.touch2mouse.js"></script>
+
+</html>

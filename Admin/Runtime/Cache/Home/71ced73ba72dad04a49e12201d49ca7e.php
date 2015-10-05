@@ -1,0 +1,31 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="Stylesheet" type="text/css" href="/wx_shool/Public/Common/jquery-easyui-1.4.2/themes/default/easyui.css" />
+    <link rel="Stylesheet" type="text/css" href="/wx_shool/Public/Common/jquery-easyui-1.4.2/themes/icon.css" />
+    <script type="text/javascript" src="/wx_shool/Public/Common/jquery-easyui-1.4.2/jquery.min.js"></script>
+
+    <script type="text/javascript" src="/wx_shool/Public/Common/jquery-easyui-1.4.2/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/wx_shool/Public/Common/bootstrap-paginator/src/bootstrap-paginator.js"></script>
+    <script type="text/javascript" src="/wx_shool/Public/Common/jquery-easyui-1.4.2/locale/easyui-lang-zh_CN.js"></script>
+    <link rel="Stylesheet" type="text/css" href="/wx_shool/Public/Common/pagination.css" />
+</head>
+<body style="margin-left: 50px">
+<h2>>>信息管理</h2>
+<div style="margin:20px 0;"></div>
+<table id="xxgl" class="easyui-datagrid" title="信息管理" style="width:910px;height:700px"
+       data-options="rownumbers:true,singleSelect:true,url:'/wx_shool/admin.php/home/attention/getInformation',method:'get'">
+    <thead>
+    <tr>
+        <th data-options="field:'openid',width:200,align:'center'">openid</th>
+        <th data-options="field:'nickname',width:200,align:'center'">昵称</th>
+        <th data-options="field:'city',width:200,align:'center'">城市</th>
+
+
+    </tr>
+    </thead>
+</table>
+</body>
+</html>

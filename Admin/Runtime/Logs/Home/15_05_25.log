@@ -1,0 +1,36 @@
+[ 2015-05-25T20:49:37+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/index/checklogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: select *  from wx_admin where userName= 'admin' and userPassword='admin' [ RunTime:0.0370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-25T20:49:42+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-25T20:49:43+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-25T20:49:43+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getActivityList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT wx_shoolactivity.id,wx_shoolactivity.activityId,wx_shoolactivity.shoolId,wx_school.shoolName,wx_activity.activityTitle,wx_activity.activityCagetory,wx_activity.activitySubTitle,wx_activity.activityImage,wx_activity.activityTime,wx_activity.activityAdd,wx_activity.activitySponsor FROM (wx_activity ,wx_school) INNER JOIN wx_shoolactivity ON wx_school.shoolId = wx_shoolactivity.shoolId AND wx_activity.activityId = wx_shoolactivity.activityId WHERE wx_shoolactivity.boolDel=0 ORDER BY wx_activity.activityAdd DESC LIMIT 0,20 [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

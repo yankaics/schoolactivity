@@ -1,0 +1,279 @@
+[ 2015-06-01T20:33:25+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/index/checklogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select *  from wx_admin where userName= 'admin' and userPassword='admin' [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-06-01T20:33:33+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/getSchollList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName,wx_school.shoolAdd,wx_school.schoolIcon  from wx_school where boolDel=0 ORDER BY shoolId desc LIMIT 0,20 [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2015-06-01T20:33:43+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-06-01T20:33:44+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/getSchollList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName,wx_school.shoolAdd,wx_school.schoolIcon  from wx_school where boolDel=0 ORDER BY shoolId desc LIMIT 0,20 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-01T20:33:44+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-01T20:33:44+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getSelectedSchool
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName from wx_school where boolDel=0  [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-01T20:33:44+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/activity/getActivityList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SELECT wx_shoolactivity.id,wx_shoolactivity.activityId,wx_shoolactivity.shoolId,wx_school.shoolName,wx_activity.activityTitle,wx_activity.activityCagetory,wx_activity.activitySubTitle,wx_activity.activityImage,wx_activity.activityTime,wx_activity.activityAdd,wx_activity.activitySponsor FROM (wx_activity ,wx_school) INNER JOIN wx_shoolactivity ON wx_school.shoolId = wx_shoolactivity.shoolId AND wx_activity.activityId = wx_shoolactivity.activityId WHERE wx_shoolactivity.boolDel=0 ORDER BY wx_activity.activityAdd DESC LIMIT 0,20 [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-06-01T20:35:31+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-01T20:35:41+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0150s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2015-06-01T20:35:54+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-06-01T20:38:02+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2015-06-01T20:44:59+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/getSchollList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: select wx_school.shoolId,wx_school.code,wx_school.shoolName,wx_school.shoolAdd,wx_school.schoolIcon  from wx_school where boolDel=0 ORDER BY code desc LIMIT 0,20 [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-06-01T20:44:59+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/getSchollList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.code,wx_school.shoolName,wx_school.shoolAdd,wx_school.schoolIcon  from wx_school where boolDel=0 ORDER BY code desc LIMIT 0,20 [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-01T20:45:18+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0170s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-06-01T20:46:29+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/getSchollList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select wx_school.shoolId,wx_school.code,wx_school.shoolName,wx_school.shoolAdd,wx_school.schoolIcon  from wx_school where boolDel=0 ORDER BY code desc LIMIT 0,20 [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2015-06-01T20:50:11+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/getSchollList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.code,wx_school.shoolName,wx_school.shoolAdd,wx_school.schoolIcon  from wx_school where boolDel=0 ORDER BY code ASC LIMIT 0,20 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-01T23:22:19+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/getSchollList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select wx_school.shoolId,wx_school.code,wx_school.shoolName,wx_school.shoolAdd,wx_school.schoolIcon  from wx_school where boolDel=0 ORDER BY code ASC LIMIT 0,20 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2015-06-01T23:22:37+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/addSchool/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: INSERT wx_school(shoolName,shoolAdd,schoolIcon,boolDel,code) VALUES ('测试','测试','',0,'6') [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-01T23:22:39+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/getSchollList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: select wx_school.shoolId,wx_school.code,wx_school.shoolName,wx_school.shoolAdd,wx_school.schoolIcon  from wx_school where boolDel=0 ORDER BY code ASC LIMIT 0,20 [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-01T23:31:00+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/getSchollList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.code,wx_school.shoolName,wx_school.shoolAdd,wx_school.schoolIcon  from wx_school where boolDel=0 ORDER BY code ASC LIMIT 0,20 [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2015-06-01T23:31:03+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/modifyBing/?id=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName,wx_school.shoolAdd,wx_school.schoolIcon,wx_school.code from wx_school where shoolId= 22 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-06-01T23:31:11+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/confirmModify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: UPDATE wx_school SET shoolName='测试',shoolAdd='测试',schoolIcon='',code='2' where shoolId=22 [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2015-06-01T23:31:12+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/getSchollList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select wx_school.shoolId,wx_school.code,wx_school.shoolName,wx_school.shoolAdd,wx_school.schoolIcon  from wx_school where boolDel=0 ORDER BY code ASC LIMIT 0,20 [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-01T23:31:19+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/DeleteSchool/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: UPDATE wx_school SET boolDel=1 where shoolId=22 [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2015-06-01T23:31:20+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/getSchollList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select wx_school.shoolId,wx_school.code,wx_school.shoolName,wx_school.shoolAdd,wx_school.schoolIcon  from wx_school where boolDel=0 ORDER BY code ASC LIMIT 0,20 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

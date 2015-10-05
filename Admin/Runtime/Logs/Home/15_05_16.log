@@ -1,0 +1,541 @@
+[ 2015-05-16T22:55:23+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0150s ]
+NOTIC: [8] Array to string conversion F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:55:34+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T22:56:36+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-16T22:58:29+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T23:03:14+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0140s ]
+
+[ 2015-05-16T23:03:42+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0140s ]
+
+[ 2015-05-16T23:03:43+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0130s ]
+
+[ 2015-05-16T23:04:10+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0110s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 24 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 24 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 24 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 24 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 24 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 24 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T23:04:20+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 24 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 24 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 24 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 24 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 24 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 24 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T23:04:34+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0110s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T23:04:36+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T23:04:41+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0130s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-16T23:04:41+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0130s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-16T23:04:42+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0110s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-16T23:04:42+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [4096] Object of class stdClass could not be converted to string F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T23:28:03+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/index/checklogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: select *  from wx_admin where userName= 'admin' and userPassword='admin' [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-16T23:31:35+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0130s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T23:31:57+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0130s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-16T23:32:14+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T23:32:22+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-16T23:32:32+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0130s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-16T23:34:14+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-16T23:34:16+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T23:34:18+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T23:34:23+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-16T23:34:26+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-16T23:34:28+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0110s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-16T23:34:33+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T23:35:04+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0110s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-16T23:35:06+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-16T23:35:08+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0130s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-16T23:35:14+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/attention/getInformation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *  from wx_guanzhu where boolDel=0  [ RunTime:0.0130s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] Undefined property: stdClass::$nickname F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$province F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] Undefined property: stdClass::$city F:\WorkSpace\PhpWork\wx_shool\Admin\Home\Controller\AttentionController.class.php 第 37 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead F:\WorkSpace\PhpWork\wx_shool\ThinkPHP\Library\Org\Curl.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

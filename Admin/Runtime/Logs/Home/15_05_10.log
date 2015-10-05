@@ -1,0 +1,278 @@
+[ 2015-05-10T13:51:55+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/getSchollList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName,wx_school.shoolAdd,wx_school.schoolIcon  from wx_school where boolDel=0 ORDER BY shoolId desc LIMIT 0,20 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-10T13:57:22+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T13:57:44+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-10T13:57:45+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-10T13:57:45+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-10T13:59:18+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-10T14:00:33+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-10T14:00:34+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-10T14:00:34+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-10T14:01:25+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T14:02:18+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-10T14:02:19+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-10T14:02:19+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-10T14:02:19+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-10T14:02:20+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-10T14:07:12+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-10T14:07:16+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T14:07:24+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/pass
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_teacher` [ RunTime:0.0830s ]
+SQL: UPDATE `wx_teacher` SET `boolPass`='1' WHERE ( teacherId=6 ) [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T14:07:26+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-10T14:09:28+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-10T14:09:29+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T14:10:05+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T14:11:53+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-10T14:11:53+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T14:11:53+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T14:11:54+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T14:11:54+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/teacher/getTeacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_teacher.teacherId,wx_teacher.userAcount,wx_teacher.userPassword,wx_teacher.image,wx_teacher.boolPass FROM wx_teacher
+ where boolDel=0 LIMIT 0,20 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-10T14:16:52+08:00 ] 127.0.0.1 /wx_shool/admin.php/home/school/getSchollList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select wx_school.shoolId,wx_school.shoolName,wx_school.shoolAdd,wx_school.schoolIcon  from wx_school where boolDel=0 ORDER BY shoolId desc LIMIT 0,20 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

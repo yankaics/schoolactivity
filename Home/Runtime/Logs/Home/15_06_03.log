@@ -1,0 +1,224 @@
+[ 2015-06-03T00:10:14+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/updateLocation/
+ERR: 参数错误或者未定义:jingdu
+
+[ 2015-06-03T00:10:19+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/updateLocation/jingdu/1
+ERR: 参数错误或者未定义:weidu
+
+[ 2015-06-03T00:10:25+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/updateLocation/jingdu/1/weidu/1
+ERR: 参数错误或者未定义:openid
+
+[ 2015-06-03T00:52:02+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT  wx_activity.activityTitle,wx_activity.activitySubTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=1 [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-03T00:53:05+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT  wx_activity.activityTitle,wx_activity.activitySubTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=1 [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-03T00:53:05+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/checkactivity/openid/otz3Ms2gtv51MKCjKd7J6uD03nhs/activityid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_attention.attentionId FROM wx_attention WHERE weixin='otz3Ms2gtv51MKCjKd7J6uD03nhs' and activityId=1  and boolDel=0 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-03T01:14:42+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT  wx_activity.activityTitle,wx_activity.activitySubTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=1 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-03T01:14:42+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/checkactivity/openid/otz3Ms2gtv51MKCjKd7J6uD03nhs/activityid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_attention.attentionId FROM wx_attention WHERE weixin='otz3Ms2gtv51MKCjKd7J6uD03nhs' and activityId=1  and boolDel=0 [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-03T21:00:21+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/checklogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT teacherId,boolPass,shoolId FROM wx_teacher WHERE  booladmin=1 and userAcount='admin' and userPassword='21232f297a57a5a743894a0e4a801fc3' and boolDel=0 [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `wx_teacher` [ RunTime:0.0150s ]
+SQL: UPDATE `wx_teacher` SET `openid`='1' WHERE ( teacherId=5 ) [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-03T21:04:48+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT  wx_activity.activityTitle,wx_activity.activitySubTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=1 [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-03T21:04:51+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/checkactivity/openid/1/activityid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_attention.attentionId FROM wx_attention WHERE weixin='1' and activityId=1  and boolDel=0 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-03T21:05:45+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT  wx_activity.activityTitle,wx_activity.activitySubTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=1 [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-03T21:05:45+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/checkactivity/openid/1/activityid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT wx_attention.attentionId FROM wx_attention WHERE weixin='1' and activityId=1  and boolDel=0 [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-03T21:07:00+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT  wx_activity.activityTitle,wx_activity.activitySubTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=1 [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-06-03T21:07:01+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/checkactivity/openid/1/activityid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT wx_attention.attentionId FROM wx_attention WHERE weixin='1' and activityId=1  and boolDel=0 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-06-03T21:07:13+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT  wx_activity.activityTitle,wx_activity.activitySubTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=1 [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-03T21:07:13+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/checkactivity/openid/1/activityid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT wx_attention.attentionId FROM wx_attention WHERE weixin='1' and activityId=1  and boolDel=0 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-06-03T21:07:18+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT  wx_activity.activityTitle,wx_activity.activitySubTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=1 [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-03T21:07:18+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/checkactivity/openid/1/activityid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT wx_attention.attentionId FROM wx_attention WHERE weixin='1' and activityId=1  and boolDel=0 [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-03T21:07:27+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT  wx_activity.activityTitle,wx_activity.activitySubTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=1 [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-03T21:07:27+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/checkactivity/openid/1/activityid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_attention.attentionId FROM wx_attention WHERE weixin='1' and activityId=1  and boolDel=0 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-03T21:22:36+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/checklogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT teacherId,boolPass,shoolId FROM wx_teacher WHERE  booladmin=1 and userAcount='admin' and userPassword='21232f297a57a5a743894a0e4a801fc3' and boolDel=0 [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `wx_teacher` [ RunTime:0.0170s ]
+SQL: UPDATE `wx_teacher` SET `openid`='1' WHERE ( teacherId=5 ) [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-03T21:24:13+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/checklogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT teacherId,boolPass,shoolId FROM wx_teacher WHERE  booladmin=1 and userAcount='admin' and userPassword='21232f297a57a5a743894a0e4a801fc3' and boolDel=0 [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `wx_teacher` [ RunTime:0.0170s ]
+SQL: UPDATE `wx_teacher` SET `openid`='otz3Ms0T1RlhhqbT-Qj4dEEv-5xQ' WHERE ( teacherId=5 ) [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-03T21:32:27+08:00 ] 127.0.0.1 /wx_shool/index.php/home/index/checklogin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT teacherId,boolPass,shoolId FROM wx_teacher WHERE  booladmin=1 and userAcount='admin' and userPassword='21232f297a57a5a743894a0e4a801fc3' and boolDel=0 [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wx_teacher` [ RunTime:0.0140s ]
+SQL: UPDATE `wx_teacher` SET `openid`='otz3Ms0T1RlhhqbT-Qj4dEEv-5xQ' WHERE ( teacherId=5 ) [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-03T21:32:32+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/getActiviryById/activityId/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT  wx_activity.activityTitle,wx_activity.activitySubTitle, wx_activity.activityTime, wx_activity.activityAdd,wx_activity.activitySponsor,wx_activity.activityTetailed,wx_activity.activityId FROM wx_activity where wx_activity.activityId=1 [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-03T21:32:33+08:00 ] 127.0.0.1 /wx_shool/index.php/home/activity/checkactivity/openid/otz3Ms0T1RlhhqbT-Qj4dEEv-5xQ/activityid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT wx_attention.attentionId FROM wx_attention WHERE weixin='otz3Ms0T1RlhhqbT-Qj4dEEv-5xQ' and activityId=1  and boolDel=0 [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
